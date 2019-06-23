@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quiz_firstaidkit</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Health medical template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/quiz2.css">
+<link rel="stylesheet" type="text/css" href="styles/quiz_responsive.css">
+</head>
+<body>
+
+		<div class="container">
+				<div class="row">
+					<br/>
+					<div class="panel panel-primary">
+						 <div class="panel-heading">    
+								<h3>Steps to clean a wound at home using your <span>First Aid Kit</span></h3><br>
+						</div> 
+						<img src="q.jpg" alt="" height="250px" width="400px"><br>     
+					<p>
+					It's important to clean a wound before applying a plaster or dressing. 
+					This will reduce the risk of infection and encourage the healing process.
+					A plaster or larger dressing is usually all that is needed to stop a wound bleeding.
+					However, you might need to apply pressure to the area, and if an arm or leg is affected, you should raise it above heart level if possible.
+					Rinse the wound under running tap water for 5 to 10 minutes. soak a gauze pad or cloth in saline solution or tap water, or use an alcohol-free wipe,
+					and gently dab or wipe the skin with it – don't use antiseptic as this may damage the skin                    
+					</p>
+						</div>
+				</div><br>
+				<div class ="panel-body">
+					<h3 class="panel-title text-danger">
+							<i class="fa fa-question-circle fa-3x"></i> 2. Choose the steps in Order
+						</h3>
+				
+			</div>
+			
+			<div class="panel-body">
+					<div class="row">
+				<div class="funkyradio">
+					<div class="funkyradio-default">
+						<input type="radio" name="radio" id="radio1" />
+						<label for="">A.Put on disposal gloves</label>
+					</div>
+					<div class="funkyradio-primary">
+						<input type="radio" name="radio" id="radio2"/>
+						<label for="">B.Rinse the water</label>
+					</div>
+					<div class="funkyradio-success">
+						<input type="radio" name="radio" id="radio3" />
+						<label for="">C.Clean your hands using soap</label>
+					</div>
+					<div class="funkyradio-danger">
+						<input type="radio" name="radio" id="radio4" />
+						<label for="">D.Apply gentel pressure if the wound is bleeding</label>
+					</div>
+					<div class="funkyradio-warning">
+						<input type="radio" name="radio" id="radio5" />
+						<label for="">E.Bandage the wound</label>
+					</div>
+					<div class="funkyradio-info">
+						<input type="radio" name="radio" id="radio6" />
+						<label for=""> F.Use an antibiotic cream or oinment</label>
+					</div>
+				</div> 
+			</div>       
+		</div><br><br>
+		<div class = "panel-body">
+				<h4>Your Answer</h4>
+		 </div>
+		 
+		  <ul class = "list-group">
+			<div class="row">
+			<div class="col-md-4">
+			  <li class = "list-group-item">
+					<div class="checkbox">
+					  <input type="checkbox" id="checkbox" />
+					  <label for="checkbox">
+						  C D B E F A
+					  </label>
+				  </div>
+			  </li>
+			  </div>
+			  <div class="col-md-4">
+			  <li class = "list-group-item">
+					<div class="checkbox">
+					  <input type="checkbox" id="checkbox" />
+					  <label for="checkbox">
+						 B C A F D E
+					  </label>
+				  </div>
+			  </li>
+			</div>
+		</div>
+			<br> 
+		<div class="row"> 
+			  <div class="col-md-4">
+					<li class = "list-group-item">
+						  <div class="checkbox">
+							<input type="checkbox" id="checkbox" />
+							<label for="checkbox">
+								A B C D F E
+							</label>
+						</div>
+					</li>
+					</div>
+					<div class="col-md-4">
+					<li class = "list-group-item">
+						  <div class="checkbox">
+							<input type="checkbox" id="checkbox" />
+							<label for="checkbox">
+								C A D B F E 
+							</label>
+						</div>
+					</li>
+				  </div>
+				</div>
+				</ul>
+
+					
+			 
+		<br><br>
+					<div class="row">
+						<div class="col-md-4">
+								<button type="submit" value="submit" onclick="return foo();"  class="btn btn-success btn-sm btn-block hidden">
+								<span class="fa fa-send"></span>View Answers</button><br><br>
+								<a href="../firstaidkit.html" class="previous round">&#8249;</a>					
+					</div>
+</div>
+
+<script>
+		$(document).ready(function() {
+		$('#panel2').hide();
+		
+		$('#step1').click( function () { $('#panel1').show();$('#panel2').hide(); });
+		
+		$('#step2').click( function () { $('#panel1').hide();$('#panel2').show(); });
+	});
+	function foo() {
+	   alert("The Answer is C A D B F E");
+	   return true;
+	}
+	var expanded = false;
+	
+	function showCheckboxes() {
+	  var checkboxes = document.getElementById("checkboxes");
+	  if (!expanded) {
+		checkboxes.style.display = "block";
+		expanded = true;
+	  } else {
+		checkboxes.style.display = "none";
+		expanded = false;
+	  }
+	}
+	
+	</script>

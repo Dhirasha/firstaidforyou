@@ -1,0 +1,95 @@
+#cnt1 {
+    background-color: rgba(215, 212, 212, 0.88);
+    margin-bottom: 70px;
+}
+
+#panel1 {
+    padding:20px;
+}
+
+.panel-body:not(.two-col) {
+    padding: 0px;
+}
+
+.panel-body .radio, .panel-body .checkbox {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.panel-body .list-group {
+    margin-bottom: 0;
+}
+
+.margin-bottom-none {
+    margin-bottom: 0;
+}
+
+.frb-group {
+	margin: 15px 0;
+}
+
+.frb ~ .frb {
+	margin-top: 15px;
+}
+
+
+
+.frb.frb-danger input[type="radio"]:checked ~ label,
+.frb.frb-danger input[type="checkbox"]:checked ~ label {
+	background-color: #ecaba9;
+}
+
+.frb input[type="radio"]:empty ~ label span,
+.frb input[type="checkbox"]:empty ~ label span {
+	display: inline-block;
+}
+
+.frb input[type="radio"]:empty ~ label span.frb-title,
+.frb input[type="checkbox"]:empty ~ label span.frb-title {
+	font-size: 16px;
+	font-weight: 700;
+	margin: 5px 5px 5px 50px;
+}
+
+.frb input[type="radio"]:empty ~ label span.frb-description,
+.frb input[type="checkbox"]:empty ~ label span.frb-description {
+	font-weight: normal;
+	font-style: italic;
+	color: #999;
+	margin: 5px 5px 5px 50px;
+}
+
+.frb input[type="radio"]:empty:checked ~ label span.frb-description,
+.frb input[type="checkbox"]:empty:checked ~ label span.frb-description {
+	color: #fafafa;
+}
+
+.frb.frb-default input[type="radio"]:empty:checked ~ label span.frb-description,
+.frb.frb-default input[type="checkbox"]:empty:checked ~ label span.frb-description {
+	color: #999;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+  }
+  
+  a:hover {
+	background-color: #ddd;
+	color: rgb(241, 112, 112);
+  }
+  
+  .previous {
+	background-color: #f1f1f1;
+	color: rgb(233, 111, 111);
+  }
+  
+  .next {
+	background-color: rgb(175, 83, 83);
+	color: white;
+  }
+  
+  .round {
+	border-radius: 70%;
+  }

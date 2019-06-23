@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quiz_firstaidkit</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Health medical template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/quiz1.css">
+<link rel="stylesheet" type="text/css" href="quiz/styles/quiz_responsive.css">
+</head>
+<body>
+
+<!------ Include the above in your HEAD tag ---------->
+<div class="container" id="quiz">
+    <div class="row">
+			<div class="row">
+        <div class="col-md-12 col-md-offset-2" id="panel1">
+            <div class="panel panel-default">
+					<div class="overSelect"></div>
+                <div class="panel-heading">
+                	<h3>First Watch the video about <span>How to prepare a First Aid Kit</span></h3><br>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/8assGpZvwG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+                        	<h3 class="panel-title text-danger">
+								<i class="fa fa-question-circle fa-3x"></i> 1. Choose the most essential items that should contain in a first Aid kit   
+                    		</h3>
+				</div>
+				<form action="/action_page.php" method="get">
+                <div class="panel-body two-col">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="frb frb-danger margin-bottom-none">
+    						<input type="checkbox" id="radio-button-5" name="radio-button" value="1" onclick="showCheckboxes()" checked>
+    						<label for="radio-button-5">
+    							<span class="frb-title">Latex Gloves</span>
+    							<span class="frb-description"></span>
+    						</label>
+    					</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="frb frb-danger margin-bottom-none">
+    						<input  onclick="check()" type="checkbox" id="radio-button-5" name="radio-button" value="5" checked>
+    						<label for="radio-button-5">
+    							<span class="frb-title">Gauze Pads</span>
+    							<span class="frb-description"></span>
+    						</label>
+    					</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="frb frb-danger margin-bottom-none">
+    						<input onclick="check()" type="checkbox" id="checkbox" name="radio-button" value="5">
+    						<label for="radio-button-5">
+    							<span class="frb-title">Pocket Masks</span>
+    							<span class="frb-description"></span>
+    						</label>
+    					</div>
+						</div>
+						<div class="col-md-3">
+								<div class="frb frb-danger margin-bottom-none">
+								<input onclick="check()" type="checkbox" id="radio-button-5" name="radio-button" value="5">
+								<label for="radio-button-5">
+									<span class="frb-title">Splint</span>
+									<span class="frb-description"></span>
+								</label>
+							</div>
+							</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="frb frb-danger margin-bottom-none">
+    						<input onclick="check()" type="checkbox" id="radio-button-5" name="radio-button" value="5">
+    						<label for="radio-button-5">
+    							<span class="frb-title">Roller Bandage</span>
+    							<span class="frb-description"></span>
+    						</label>
+    					</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="frb frb-danger margin-bottom-none">
+    						<input onclick="check()" type="checkbox" id="radio-button-5" name="radio-button" value="5">
+    						<label for="radio-button-5">
+    							<span class="frb-title">Tablets</span>
+    							<span class="frb-description"></span>
+    						</label>
+    					</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="frb frb-danger margin-bottom-none">
+    						<input onclick="check()" type="checkbox" id="radio-button-5" name="radio-button" value="5">
+    						<label for="radio-button-5">
+    							<span class="frb-title">Scissors</span>
+    							<span class="frb-description"></span>
+    						</label>
+    					</div>
+						</div>
+								<div class="col-md-3">
+									<div class="frb frb-danger margin-bottom-none">
+									<input onclick="check()" type="checkbox" id="radio-button-5" name="radio-button" value="5">
+									<label for="radio-button-5">
+										<span class="frb-title">Dental Kit</span>
+										<span class="frb-description"></span>
+									</label>
+								</div>
+								</div>
+								<div class="col-md-3">
+									<div class="frb frb-danger margin-bottom-none">
+									<input  onclick="check()"type="checkbox" id="radio-button-5" name="radio-button" value="5">
+									<label for="radio-button-5">
+										<span class="frb-title">Thermometer</span>
+										<span class="frb-description"></span>
+									</label>
+								</div>
+								</div>
+								<div class="col-md-3">
+									<div class="frb frb-danger margin-bottom-none">
+									<input onclick="check()" type="checkbox" id="radio-button-5" name="radio-button" value="5">
+									<label for="radio-button-5">
+										<span class="frb-title">Survival Blanket</span>
+										<span class="frb-description"></span>
+									</label>
+								</div>
+								</div>
+								<div class="col-md-3">
+										<div class="frb frb-danger margin-bottom-none">
+										<input onclick="check()" type="checkbox" id="radio-button-5" name="radio-button" value="5">
+										<label for="radio-button-5">
+											<span class="frb-title">Sunscreen</span>
+											<span class="frb-description"></span>
+										</label>
+									</div>
+									</div>
+									<div class="col-md-3">
+										<div class="frb frb-danger margin-bottom-none">
+										<input onclick="check()" type="checkbox" id="radio-button-5" name="radio-button" value="5">
+										<label for="radio-button-5">
+											<span class="frb-title">Wound Cleaning</span>
+											<span class="frb-description"></span>
+										</label>
+									</div>
+									</div>
+                    </div>
+				</div>
+				</form><br><br>
+                <div class="panel-footer">
+                    <div class="row">
+                        <div class="col-md-4">
+                           <button type="submit" value="submit" onclick="return foo();" class="btn btn-success btn-sm btn-block hidden" >
+								<span class="fa fa-send"></span>Submit <a href="../firstaidkit.html"></button></a><br><br>
+								<a href="../firstaidkit.html" class="previous round">&#8249;</a>
+								<a href="quiz2.html" class="next round">&#8250;</a>
+							</div>
+
+						
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script>
+	$(document).ready(function() {
+    $('#panel2').hide();
+    
+    $('#step1').click( function () { $('#panel1').show();$('#panel2').hide(); });
+    
+    $('#step2').click( function () { $('#panel1').hide();$('#panel2').show(); });
+});
+function foo() {
+   alert("Well Done!");
+   return true;
+}
+var expanded = false;
+
+function check() {
+  document.getElementById("myCheck").checked = true;
+}
+
+function uncheck() {
+  document.getElementById("myCheck").checked = false;
+}
+
+</script>
